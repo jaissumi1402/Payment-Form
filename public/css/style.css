@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 15px,30px;
+    font-size: 17px;
+    padding: 8px;
+}
+.container{
+    background-color: #f2f2f2;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    padding: 5px 20px 15px 20px;
+}
+#email,#cvv,#name,#address,#pincode,#card,#date{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+fieldset{
+    background-color: #fff;
+    border: 1px solid #ccc;
+
+}
+.heading{
+    text-align: center;
+}
+input[type="submit"]{
+    background-color: #4daca1;
+    color: wheat;
+    cursor: pointer;
+
+}
+input[type="submit"]:hover{
+    background-color: #4caf84;
+    color: #000;
+}
